@@ -10,7 +10,7 @@ const Index = () => {
       <section className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
         <p className="text-xl mb-8">Streamline your business processes with our cutting-edge SaaS solution</p>
-        <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+        <Button size="lg" className="bg-green-600 hover:bg-green-700">
           Get Started <ArrowRight className="ml-2" size={20} />
         </Button>
       </section>
@@ -52,7 +52,7 @@ const Index = () => {
 const FeatureCard = ({ icon, title, description }) => (
   <Card className="text-center">
     <CardHeader>
-      <div className="mx-auto text-blue-600 mb-4">{icon}</div>
+      <div className="mx-auto text-green-600 mb-4">{icon}</div>
       <CardTitle>{title}</CardTitle>
     </CardHeader>
     <CardContent>
